@@ -1,0 +1,12 @@
+{
+  "name": "functional-programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --no-browser"
+  },
+  "keywords": ["git", "git-learning"],
+  "author": "Hassan",
+  "license": "MIT"
+}
