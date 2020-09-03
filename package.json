@@ -6,7 +6,13 @@
   "scripts": {
     "start": "live-server --no-browser"
   },
-  "keywords": ["git", "git-learning"],
+  "keywords": [
+    "git",
+    "git-learning"
+  ],
   "author": "Hassan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }
