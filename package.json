@@ -13,6 +13,7 @@
   "author": "Hassan",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "ramda": "^0.27.1"
   }
 }

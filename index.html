@@ -6,14 +6,51 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Functional Programming</title>
+    <link rel="stylesheet" href="public/src/css/style.css">
 </head>
 <body>
 
     <div id="allContent" >
-        <header></header>
+        <!-- START OF SITE HEADER -->
+        <header id="siteHeader" >
+            <div id="siteTitle" >
+                <h1 id="siteTitleText" >Functional Programming</h1>
+            </div>
+            <nav id="siteMenuBar" >
+                <ul id="siteMenuBarList" >
+                    <li id="siteMenuBarListItem1" >
+                        <a id="siteMenuBarListItem1Link" href="./" >Home</a>
+                    </li>
+                    <li id="siteMenuBarListItem2" >
+                        <a id="siteMenuBarListItem2Link" href="#" >others</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- END OF SITE HEADER -->
+
+        <!-- START OF MAIN CONTENT -->
+        <main>
+            <div id="content">
+                <article id="box1" class="content-box">
+                    <header>
+                        <h3>Functional Programming Box 1</h3>
+                    </header>
+                    <section class="content-item-body" >
+                        <p>Main content will go here ...</p>
+                    </section>
+                </article>
+            </div>
+        </main>
+        <!-- END OF MAIN CONTENT -->
+
     </div>
 
-    <div id="scripts">
+    <div id="scripts" style="display: none" >
+        <div id="librariesScripts">
+            <script src="node_modules/lodash/lodash.min.js" ></script>
+            <script src="node_modules/ramda/dist/ramda.min.js"></script>
+        </div>
         <script src="./index.js"></script>
         <script>
             /** Git Learning Web App*/

@@ -1,0 +1,81 @@
+/*
+This is style for this project.
+*/
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: "IBM Plex Mono", serif;
+  font-size: 18px;
+}
+
+/* START OF SITE HEADER */
+#siteHeader {
+  padding: 1rem;
+}
+#siteHeader #siteTitle {
+  text-align: center;
+  padding: 1em;
+  background-color: #d8e2eb;
+}
+#siteHeader #siteMenuBar {
+  padding: 1.5em;
+  border: 1px solid lightgray;
+}
+#siteHeader #siteMenuBarList {
+  display: flex;
+  list-style: none;
+  min-width: 25rem;
+  text-align: center;
+}
+#siteHeader #siteMenuBarList li {
+  flex: 0 0 10%;
+  margin: 0 0.85em;
+}
+#siteHeader #siteMenuBarList li a {
+  display: inline-block;
+  width: 100%;
+  padding: 1rem 0.2em;
+  border: 2px dashed darkblue;
+  border-radius: 15px;
+}
+#siteHeader #siteMenuBarList li a:hover {
+  background-color: aliceblue;
+}
+#siteHeader #siteMenuBarList li a:visited {
+  color: #3b3bd4;
+}
+
+/* END OF SITE HEADER */
+/* START OF SITE MAIN CONTENT */
+main {
+  margin: 1rem;
+}
+main #content .content-box {
+  border: 1px solid lightblue;
+  padding: 1rem;
+}
+main #content .content-box header {
+  border-bottom: 2px dashed lightseagreen;
+  width: 60%;
+  margin-bottom: 0.7rem;
+  padding: 0.5rem 0;
+}
+main #content .content-box header::before {
+  padding: 0 0.3rem;
+  content: "->";
+  display: inline-block;
+  float: left;
+  clear: left;
+}
+main #content .content-box .content-item-body {
+  text-indent: 1cm;
+  padding: 1rem;
+}
+
+/* END OF SITE MAIN CONTENT */
+
+/*# sourceMappingURL=style.css.map */
