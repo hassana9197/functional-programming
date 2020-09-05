@@ -1,4 +1,8 @@
 'use strict';
+import _ from "lodash";
+import * as R from "ramda";
+import "./css/style.css";
+
 
 /** Chapter 3: Few Data Structures, Many Operations */
 function fact(number) {
@@ -13,6 +17,8 @@ function fact(number) {
     return number * fact(number - 1);
 
 }
+
+console.log("5! is " + fact(5))
 
 class Person {
     constructor(firstName, lastName) {
@@ -32,6 +38,7 @@ _.each(persons, s => {
     s.fullName = s.firstName + ' ' + s.lastName
 });
 
+R.lens(R.prop('x'));
 
 
 
